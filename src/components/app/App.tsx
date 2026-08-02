@@ -1,6 +1,5 @@
-import SearchBar from "../searchBar/SearchBar";
-import MovieGrid from "../movieGrid/MovieGrid";
-import "./App.css";
+import SearchBar from "../SearchBar/SearchBar";
+import MovieGrid from "../MovieGrid/MovieGrid";
 
 function App() {
   return (
