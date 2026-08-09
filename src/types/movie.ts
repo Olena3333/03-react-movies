@@ -8,7 +8,6 @@ export interface Movie {
     vote_average: number;
 }
 
-
 export interface TMDBResponse {
   page: number;
   results: Movie[];
