@@ -2,9 +2,6 @@ import axios from 'axios';
 import type { Movie } from '../types/movie';
 
 const BASE_URL = 'https://api.themoviedb.org/3';
-
-console.log("Token Debug:", import.meta.env.VITE_TMDB_TOKEN ? "Token exists!" : "TOKEN IS EMPTY OR UNDEFINED!");
-
 const TMDB_TOKEN = import.meta.env.VITE_TMDB_TOKEN;
 
 interface FetchMoviesResponse {
